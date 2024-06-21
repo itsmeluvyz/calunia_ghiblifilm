@@ -1,0 +1,81 @@
+.AboutPage {
+    background-color: #7b7a79f0;
+    color: #333;
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+  
+    img {
+      width: 70%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+      margin: 10px 0;
+      color: #0c0c0c;
+      font-weight: normal;
+      text-align: left;
+    }
+  
+    h3,
+    h4,
+   
+    h5 {
+      font-size: 1.2em;
+      margin: 5px 0;
+      color: #0d0d0d;
+      font-weight: normal;
+      text-align: left;
+    }
+    h6 {
+        font-size: 1.2em;
+        margin: 5px 0;
+        color: #0d0d0d;
+        font-weight: normal;
+        text-align: left;
+      }
+  
+    button {
+        background-color: #07df65;
+        color: white;
+        font-size: 1em;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(3, 146, 13, 0.2);
+        outline: none;
+      
+        &:hover {
+          background-color:#03843b;
+          transform: translateY(-2px);
+          box-shadow: 0 6px 8px rgba(22, 145, 16, 0.925);
+        }
+      
+        &:active {
+          background-color: #07df65;
+          transform: translateY(0);
+          box-shadow: 0 3px 5px rgba(3, 146, 13, 0.2);
+        }
+      
+        &:focus {
+          box-shadow: 0 0 0 4px rgba(3, 146, 13, 0.2);
+        }
+      }
+      
+  }
+  

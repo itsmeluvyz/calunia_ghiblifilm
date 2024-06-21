@@ -25,7 +25,7 @@ export function HomePage() {
           className="film-item"
           onClick={() => handleNavigate(film.id)}
         >
-          <img src={film.image} />
+          <img src={film.image} className="film-image" alt={film.title} />
           <p>{film.title}</p>
         </div>
       ))}

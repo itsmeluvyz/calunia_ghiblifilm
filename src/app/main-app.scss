@@ -1,20 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100..400&display=swap');
+
+.logo-container {
+  text-align: center;
+  padding: 10px; 
+  background-color: #282c34; 
+}
 .app-header {
-  background-color: #282c34;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(15px + 3vmin);
+  color: rgba(232, 216, 43, 0.708);
+   font-family: 'Playfair Display', sans-serif;
 
   small {
-    color: green;
+    color: black;
   }  
 } 
+
+.app-logo {
+  display: block;
+  margin: 5px auto; 
+  max-width: 200px; 
+  height: auto;
+}
 
 .film-item {
  display: flex;
  flex-direction: column;
  padding-left: 20px;
  padding-right: 20px;
+}
+
+
+/* HOME-PAGE */ 
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.film-item {
+  width: 220px; 
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color:transparentize($color: #9c9292, $amount: 0); 
+  padding: 15px;
+  border: 1px solid #423636;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.film-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(242, 239, 239, 0.2);
+}
+
+.film-image {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  border-radius: 4px; 
+}
+
+.film-item p {
+  margin-top: 10px;
+  font-size: 16px; 
+  color: #faf3f3; 
+}
+
+
+.film-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #444;
+}
+
+.film-item p.description {
+  font-size: 14px;
+  color: #666;
 }
