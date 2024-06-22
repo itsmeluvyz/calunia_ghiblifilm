@@ -9,7 +9,7 @@ export function MainApp() {
 
     <div>      
       <header className="app-header">
-      <img src="/logoghibli.png" alt="Logo" className="app-logo" />
+      <img src="/logo.jpg" alt="Logo" className="app-logo" />
         Welcome to Ghibli Film Shops
         <small>The Best Film Ever</small>
       </header>

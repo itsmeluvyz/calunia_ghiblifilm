@@ -30,14 +30,6 @@ export function AboutPage() {
       <h5>Year:{filmDetails?.release_date}</h5>
       <button onClick={handleBack}>Go Back</button>
       </div>
-
-
-    /*<div>
-      <header className="app_header"></header>
-      <h1>Welcome to {filmDetails?.title}</h1>
-
-      <button onClick={handleBack}>Go Back</button>
-    </div> */
   );
 }
 

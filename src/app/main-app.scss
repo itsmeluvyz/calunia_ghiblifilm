@@ -1,56 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100..400&display=swap');
 
+// Logo container styles
 .logo-container {
   text-align: center;
-  padding: 10px; 
-  background-color: #282c34; 
+  padding: 10px;
+  background-color: #1a1d23; // Changed background color
 }
+
+// Header styles
 .app-header {
- 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(15px + 3vmin);
-  color: rgba(232, 216, 43, 0.708);
-   font-family: 'Playfair Display', sans-serif;
+  color: rgba(85, 34, 90, 0.708);
+  font-family: 'Playfair Display', sans-serif;
 
   small {
     color: black;
-  }  
-} 
+  }
+}
 
+// Logo styles
 .app-logo {
   display: block;
-  margin: 5px auto; 
-  max-width: 200px; 
+  margin: 5px auto;
+  max-width: 180px; // Adjusted size
   height: auto;
 }
 
+// Film item container styles
 .film-item {
- display: flex;
- flex-direction: column;
- padding-left: 20px;
- padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-
-/* HOME-PAGE */ 
+// Home page styles
 .App {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
+  background-color: white; // Changed background color to white
 }
 
+// Individual film item styles
 .film-item {
-  width: 220px; 
-  margin: 10px;
+  width: 240px; // Adjusted size
+  margin: 15px; // Adjusted margin
   text-align: center;
   cursor: pointer;
-  background-color:transparentize($color: #9c9292, $amount: 0); 
-  padding: 15px;
-  border: 1px solid #423636;
+  background-color: #f0f0f0; // Changed background color
+  padding: 20px; // Adjusted padding
+  border: 1px solid #1b1a1a; // Changed border color
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -58,30 +62,31 @@
 
 .film-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(242, 239, 239, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); // Changed shadow color
 }
 
+// Film image styles
 .film-image {
   width: 100%;
   height: auto;
   max-height: 250px;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
+// Film item text styles
 .film-item p {
   margin-top: 10px;
-  font-size: 16px; 
-  color: #faf3f3; 
+  font-size: 16px;
+  color: #333333; 
 }
-
 
 .film-item h3 {
   margin-top: 10px;
-  font-size: 18px;
-  color: #444;
+  font-size: 20px; // Adjusted size
+  color: #222222; // Changed text color
 }
 
 .film-item p.description {
   font-size: 14px;
-  color: #666;
+  color: #555555; // Changed text color
 }

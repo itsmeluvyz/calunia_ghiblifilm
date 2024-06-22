@@ -1,81 +1,168 @@
 .AboutPage {
-    background-color: #7b7a79f0;
+  background-color: #f2f2f2; // Changed background color
+  color: #333;
+  font-family: 'Arial, sans-serif';
+  text-align: center;
+  padding: 20px; // Adjusted padding
+  margin: 0 auto;
+  max-width: 900px; // Adjusted max-width
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);.AboutPage {
+    background-color: #ffffff; // Changed background color to white
     color: #333;
     font-family: 'Arial, sans-serif';
     text-align: center;
-    padding: 10px;
+    padding: 30px; // Increased padding for more spacing
     margin: 0 auto;
-    max-width: 800px;
-    border-radius: 20px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px; // Adjusted max-width
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); // Enhanced box shadow for better contrast
   
     h1 {
-      font-size: 2.5em;
+      font-size: 2.5em; // Increased size for more emphasis
       margin-bottom: 20px;
+      color: #4a4a4a; // Darker color for better readability
     }
   
     img {
-      width: 70%;
-      max-width: 500px;
+      width: 80%; // Adjusted size
+      max-width: 600px; // Adjusted size
       height: auto;
-      border-radius: 10px;
+      border-radius: 15px; // Increased border radius for a softer look
       margin: 20px 0;
     }
   
     h2 {
-      font-size: 1.2em;
-      margin: 10px 0;
-      color: #0c0c0c;
+      font-size: 1.8em; // Increased size
+      margin: 15px 0;
+      color: #333; // Darker color for better readability
       font-weight: normal;
       text-align: left;
     }
   
     h3,
     h4,
-   
     h5 {
-      font-size: 1.2em;
-      margin: 5px 0;
-      color: #0d0d0d;
+      font-size: 1.5em; // Increased size
+      margin: 10px 0;
+      color: #555; // Slightly lighter color for differentiation
       font-weight: normal;
       text-align: left;
     }
+  
     h6 {
-        font-size: 1.2em;
-        margin: 5px 0;
-        color: #0d0d0d;
-        font-weight: normal;
-        text-align: left;
-      }
+      font-size: 1.2em; // Adjusted size
+      margin: 5px 0;
+      color: #666; // Lighter color for less emphasis
+      font-weight: normal;
+      text-align: left;
+    }
+  
+    .button-container { // New container for button alignment
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      margin-top: 20px; // Added margin to give space from the content
+    }
   
     button {
-        background-color: #07df65;
-        color: white;
-        font-size: 1em;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-        box-shadow: 0 4px 6px rgba(3, 146, 13, 0.2);
-        outline: none;
-      
-        &:hover {
-          background-color:#03843b;
-          transform: translateY(-2px);
-          box-shadow: 0 6px 8px rgba(22, 145, 16, 0.925);
-        }
-      
-        &:active {
-          background-color: #07df65;
-          transform: translateY(0);
-          box-shadow: 0 3px 5px rgba(3, 146, 13, 0.2);
-        }
-      
-        &:focus {
-          box-shadow: 0 0 0 4px rgba(3, 146, 13, 0.2);
-        }
+      background-color: #ff7f50; // Changed background color
+      color: white;
+      font-size: 1em;
+      padding: 12px 24px; // Adjusted padding
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 6px rgba(255, 127, 80, 0.2);
+      outline: none;
+  
+      &:hover {
+        background-color: #e67345; // Changed background color
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(255, 127, 80, 0.4);
       }
-      
+  
+      &:active {
+        background-color: #ff7f50;
+        transform: translateY(0);
+        box-shadow: 0 3px 5px rgba(255, 127, 80, 0.2);
+      }
+  
+      &:focus {
+        box-shadow: 0 0 0 4px rgba(255, 127, 80, 0.2);
+      }
+    }
   }
   
+
+  h1 {
+    font-size: 2em; // Adjusted size
+    margin-bottom: 20px;
+  }
+
+  img {
+    width: 80%; // Adjusted size
+    max-width: 600px; // Adjusted size
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+
+  h2 {
+    font-size: 1.5em; // Adjusted size
+    margin: 10px 0;
+    color: #0c0c0c;
+    font-weight: normal;
+    text-align: left;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-size: 1.3em; // Adjusted size
+    margin: 5px 0;
+    color: #0d0d0d;
+    font-weight: normal;
+    text-align: left;
+  }
+
+  h6 {
+    font-size: 1.1em; // Adjusted size
+    margin: 5px 0;
+    color: #0d0d0d;
+    font-weight: normal;
+    text-align: left;
+  }
+
+  button {
+    background-color: #ff7f50; // Changed background color
+    color: white;
+    font-size: 1em;
+    padding: 12px 24px; // Adjusted padding
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(255, 127, 80, 0.2);
+    outline: none;
+    text-align: left; // Added text alignment
+    margin-top: 20px; 
+
+    &:hover {
+      background-color: #e67345; // Changed background color
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(255, 127, 80, 0.4);
+    }
+
+    &:active {
+      background-color: #ff7f50;
+      transform: translateY(0);
+      box-shadow: 0 3px 5px rgba(255, 127, 80, 0.2);
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 4px rgba(255, 127, 80, 0.2);
+    }
+  }
+}
